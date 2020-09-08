@@ -1,0 +1,132 @@
+#container {
+    dd;
+}
+
+#google {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#search {
+    position: fixed;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border: 1px solid #dfe1e5;
+    border-radius: 50px;
+    width: 580px;
+    height: 45px;
+    outline: none;
+}
+
+#searchicon {
+    position: fixed;
+    top: 50%;
+    left: 3%;
+    transform: translate(-50%, -50%);
+}
+
+#searchtext {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border: 0px solid #dfe1e5;
+    border-radius: 50px;
+    width: 500px;
+    height: 40px;
+    outline: none;
+}
+
+#searchmic {
+    position: fixed;
+    top: 50%;
+    left: 96%;
+    transform: translate(-50%, -50%);
+}
+#buttons {
+    height: 100%;
+    position: absolute;
+}
+
+button { 
+    position: relative;
+    top: 50%;
+    left: 203%;
+    transform: translate(-50%, -50%);
+    border: 1px solid transparent;
+    padding: 1rem 1.4rem;
+    color: rgba(0, 0, 0, .54);
+    margin: 0 5px;
+    border-radius: 4px;
+}
+
+#dailymessage {
+    position: fixed;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(8, 8, 204);
+    font-size: 14px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navlist {
+    display: block;
+    font-size: 14px;
+}
+
+.left {
+    float: left;
+    padding: 12px;
+    color:rgb(50, 50, 50);
+}
+
+.right {
+    float: right;
+    padding: 12px;
+    color:rgb(50, 50, 50);
+}
+
+.listgoogleicon {
+    margin-top: 0px;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+#footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    border-top: 1px solid rgb(230, 230, 230);
+    
+}
+
+.footerlist {
+    display: block;
+    font-size: 15px;
+}
+
+.fleft {
+    float: left;
+    padding: 12px 2px 3px 30px;
+    color:rgb(100, 100, 100);
+}
+
+.fright {
+    float: right;
+    padding: 12px 30px 3px 2px;
+    color:rgb(100, 100, 100);
+}
